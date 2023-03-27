@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import ButtonComponent from "./components/ButtonComponent";
+import ImageComponent from "./components/ImageComponent";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <ButtonComponent text="Federico" />
+      <ImageComponent src="https://cdn.pixabay.com/photo/2023/03/19/09/20/animals-7862112_960_720.jpg" />
     </div>
   );
 }
